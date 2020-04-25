@@ -1,6 +1,7 @@
 body {
     max-width: 1440px;
     margin: 0 auto;
+    font-family: "Roboto", sans-serif;
 }
 
 header {
@@ -13,8 +14,11 @@ header {
     box-sizing: border-box;
     padding-left: 135px;
     padding-right: 135px;
+}
 
-    border: 1px solid tomato;
+header h1 {
+    font-family: "Playfair Display", serif;
+    font-weight: 900;
 }
 
 .main_nav {
@@ -22,4 +26,14 @@ header {
     flex-wrap: wrap;
     justify-content: space-around;
     width: 100%;
+}
+
+.nav_item {
+    color: #000000;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.nav_item:hover {
+    color: #FF7931;
 }
