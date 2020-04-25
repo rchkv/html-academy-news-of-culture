@@ -25,6 +25,8 @@ header h1 {
     font-size: 35px;
     line-height: 47px;
     letter-spacing: 1px;
+    margin: 0;
+    margin-bottom: 45px;
 }
 
 .main-nav {
@@ -262,6 +264,7 @@ footer hr {
 .social {
     list-style: none;
     padding: 0;
+    max-width: 171px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -270,6 +273,10 @@ footer hr {
     width: 47px;
     height: 47px;
     background-color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.social-button:not(:nth-child(3n)) {
     margin-right: 15px;
 }
 
