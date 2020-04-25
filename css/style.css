@@ -1,5 +1,5 @@
 body {
-    max-width: 1440px;
+    width: 100%;
     margin: 0 auto;
     font-family: "Roboto", sans-serif;
     font-size: 14px;
@@ -11,10 +11,12 @@ header {
     align-items: center;
     justify-content: center;
     min-height: 218px;
-    width: 1440px;
+    width: 100%;
+    min-width: 320px;
     box-sizing: border-box;
     padding-left: 135px;
     padding-right: 135px;
+    margin: 0 auto;
 }
 
 header h1 {
@@ -25,14 +27,14 @@ header h1 {
     letter-spacing: 1px;
 }
 
-.main_nav {
+.main-nav {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
 }
 
-.nav_item {
+.nav-tem {
     color: #000000;
     text-transform: uppercase;
     text-decoration: none;
@@ -41,7 +43,7 @@ header h1 {
     letter-spacing: 2px;
 }
 
-.nav_item:hover {
+.nav-tem:hover {
     color: #FF7931;
 }
 
@@ -51,8 +53,10 @@ header h1 {
     justify-content: space-around;
     align-items: center;
     width: 100%;
+    margin: 0 auto;
     min-height: 464px;
     background: url("../img/hotel.png") no-repeat;
+    background-position: center;
     color: #ffffff;
     position: relative;
 }
@@ -70,7 +74,7 @@ header h1 {
     position: absolute;
     width: 55px;
     height: 55px;
-    left: 693px;
+    left: 48%;
     top: 46px;
     content: "";
     background-image: url("../img/icons/hotel-icon.svg");
@@ -97,7 +101,7 @@ header h1 {
     display: inline-block;
 }
 
-.new_text {
+.new-text {
     display: inline-block;
     max-width: 456px;
     text-align: center;
@@ -164,9 +168,11 @@ section h2 {
     flex-direction: column;
     justify-content: space-between;
     padding-top: 13px;
+    width: 100%;
     align-items: center;
     text-align: center;
     background-color: #F7F7F7;
+    margin-bottom: 50px;;
 }
 
 .advantages-list {
@@ -219,4 +225,14 @@ section h2 {
     height: 16px;
     margin-left: 10px;
     background-image: url("../img/icons/arrow.svg");
+}
+
+footer {
+    background-color: #575757;
+    min-height: 295px;
+    color: #ffffff;
+}
+
+footer .nav-tem {
+    color: #ffffff;
 }
