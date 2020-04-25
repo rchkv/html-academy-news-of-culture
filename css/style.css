@@ -104,3 +104,54 @@ header h1 {
     font-size: 14px;
     line-height: 21px;
 }
+
+.reviews {
+    min-height: 463px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.reviews-list {
+    list-style: none;
+    display: flex;
+}
+
+.review-item {
+    max-width: 370px;
+}
+
+.review-item:not(:nth-child(3n)) {
+    margin-right: 30px;
+}
+
+.review-item-header {
+    font-family: "Playfair Display", serif;
+    font-weight: 900;
+    font-size: 23px;
+    line-height: 31px;
+}
+
+.review-item-header a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.review-item-header:hover a {
+    color: #FF7931;
+    cursor: pointer;
+}
+
+.review-item-description {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+section h2 {
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
