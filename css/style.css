@@ -116,10 +116,12 @@ header h1 {
 .reviews-list {
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .review-item {
     max-width: 370px;
+    margin-bottom: 20px;
 }
 
 .review-item:not(:nth-child(3n)) {
@@ -154,4 +156,67 @@ section h2 {
     line-height: 20px;
     letter-spacing: 2px;
     text-transform: uppercase;
+}
+
+.advantages {
+    min-height: 556px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 13px;
+    align-items: center;
+    text-align: center;
+    background-color: #F7F7F7;
+}
+
+.advantages-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    max-width: 370px;
+    min-height: 360px;
+}
+
+.advantage-header {
+    font-family: "Playfair Display", serif;
+    font-weight: 900;
+    font-size: 23px;
+    line-height: 31px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.advantage-description {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.advantages-link {
+    display: inline-block;
+    width: 170px;
+    height: 47px;
+    font-weight: 700;
+    background-color: #FF7931;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    padding: 17px;
+    box-sizing: border-box;
+    margin-bottom: 35px;
+}
+
+.advantages-link::after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+    background-image: url("../img/icons/arrow.svg");
 }
