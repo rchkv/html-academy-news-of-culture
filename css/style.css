@@ -61,6 +61,7 @@ header h1 {
     background-position: center;
     color: #ffffff;
     position: relative;
+    margin-bottom: 40px;
 }
 
 .new h2 {
@@ -162,20 +163,20 @@ section h2 {
     line-height: 20px;
     letter-spacing: 2px;
     text-transform: uppercase;
+    margin: 0;
 }
 
 .advantages {
-    min-height: 556px;
+    height: 556px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding-top: 13px;
+    padding-top: 33px;
     width: 100%;
     align-items: center;
     text-align: center;
     background: radial-gradient(circle, rgba(247,247,247,1) 0%, rgba(255,255,255,1) 30%, rgba(255,255,255,1) 45%, rgba(247,247,247,1) 45%, rgba(247,247,247,1) 100%);
     margin-bottom: 50px;
-    ;
 }
 
 .advantages-list {
@@ -217,7 +218,7 @@ section h2 {
     letter-spacing: 2px;
     padding: 17px;
     box-sizing: border-box;
-    margin-bottom: 35px;
+    margin-bottom: 36px;
 }
 
 .advantages-link::after {
@@ -230,6 +231,12 @@ section h2 {
     background-image: url("../img/icons/arrow.svg");
 }
 
+.advantages hr {
+    width: 100px;
+    color: #000000;
+    opacity: 0.2;
+}
+
 footer {
     display: flex;
     flex-direction: column;
@@ -239,6 +246,7 @@ footer {
     min-height: 295px;
     color: #ffffff;
     box-sizing: border-box;
+    padding-top: 25px;
     padding-left: 135px;
     padding-right: 135px;
     margin: 0 auto;
@@ -248,17 +256,24 @@ footer .nav-tem {
     color: #ffffff;
 }
 
+footer .main-nav {
+    margin-bottom: 45px;
+}
+
 footer h2 {
     font-family: "Playfair Display", serif;
     font-weight: 900;
     font-size: 28px;
     line-height: 37px;
     letter-spacing: 1px;
+    margin: 0;
+    margin-bottom: 30px;
 }
 
 footer hr {
     width: 100%;
     opacity: 0.4;
+    margin-bottom: 40px;
 }
 
 .social {
@@ -267,6 +282,8 @@ footer hr {
     max-width: 171px;
     display: flex;
     flex-wrap: wrap;
+    margin: 0;
+    margin-bottom: 40px;
 }
 
 .social-button {
