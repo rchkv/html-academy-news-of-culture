@@ -58,6 +58,7 @@ header h1 {
     min-height: 464px;
     background: url("../img/hotel.png") no-repeat;
     background-position: center;
+    background-size: cover;
     color: #ffffff;
     position: relative;
     margin-bottom: 40px;
@@ -83,7 +84,7 @@ header h1 {
 }
 
 .new::after {
-    /* display: none; */
+    display: none;
     position: absolute;
     top: 0;
     left: 135px;
@@ -218,6 +219,10 @@ section h2 {
     padding: 17px;
     box-sizing: border-box;
     margin-bottom: 36px;
+}
+
+.advantages-link:hover {
+    background-color: #e65000;
 }
 
 .advantages-link::after {
