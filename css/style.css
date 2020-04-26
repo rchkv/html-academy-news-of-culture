@@ -25,8 +25,7 @@ header h1 {
     font-size: 35px;
     line-height: 47px;
     letter-spacing: 1px;
-    margin: 0;
-    margin-bottom: 45px;
+    margin: 10px 0 45px 0;
 }
 
 .main-nav {
@@ -84,7 +83,7 @@ header h1 {
 }
 
 .new::after {
-    display: none;
+    /* display: none; */
     position: absolute;
     top: 0;
     left: 135px;
@@ -291,6 +290,10 @@ footer hr {
     height: 47px;
     background-color: #ffffff;
     margin-bottom: 15px;
+}
+
+.social-button:hover {
+    background-color: #FF7931;;
 }
 
 .social-button:not(:nth-child(3n)) {
