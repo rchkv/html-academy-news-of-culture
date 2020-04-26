@@ -175,7 +175,7 @@ section h2 {
     width: 100%;
     align-items: center;
     text-align: center;
-    background: radial-gradient(circle, rgba(247,247,247,1) 0%, rgba(255,255,255,1) 30%, rgba(255,255,255,1) 45%, rgba(247,247,247,1) 45%, rgba(247,247,247,1) 100%);
+    background: radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgba(255, 255, 255, 1) 30%, rgba(255, 255, 255, 1) 45%, rgba(247, 247, 247, 1) 45%, rgba(247, 247, 247, 1) 100%);
     margin-bottom: 50px;
 }
 
@@ -235,9 +235,17 @@ section h2 {
     background-image: url("../img/icons/arrow.svg");
 }
 
-.advantages hr {
+.advantage-item {
+    position: relative;
+}
+
+.advantage-item:not(:nth-child(3))::after {
+    position: absolute;
+    content: '';
+    bottom: -13px;
+    left: 135px;
     width: 100px;
-    color: #000000;
+    border-bottom: 1px solid #000000;
     opacity: 0.2;
 }
 
@@ -298,7 +306,8 @@ footer hr {
 }
 
 .social-button:hover {
-    background-color: #FF7931;;
+    background-color: #FF7931;
+    ;
 }
 
 .social-button:not(:nth-child(3n)) {
