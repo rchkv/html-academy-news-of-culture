@@ -84,7 +84,6 @@ header h1 {
 }
 
 .new::after {
-    display: none;
     position: absolute;
     top: 0;
     left: 135px;
@@ -98,10 +97,6 @@ header h1 {
     content: "новое";
     text-align: center;
     text-transform: uppercase;
-}
-
-.new:hover::after {
-    display: inline-block;
 }
 
 .new-text {
